@@ -1,0 +1,46 @@
+.thumbnail_image {
+    position: relative;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    background-color: rgb(73, 72, 72) ;
+    border-radius:1.5px;
+}
+
+.thumbnail_image::before {
+    content: "";
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0px, transparent 15%, transparent 85%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.thumbnail {
+    width: 100%;
+    max-height: 313px;
+}
+
+
+.Profile_Text {
+    position: relative;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    background-color: rgb(73, 72, 72) ;
+    width: auto;
+    margin-top: 30px;
+    padding:30px;
+    border-radius: 1.5px;
+}
+
+.Profile_Text::before {
+    content: "";
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0px, transparent 15%, transparent 85%, rgba(0, 0, 0, 0.2) 100%);
+}
