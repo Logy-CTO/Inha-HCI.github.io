@@ -15,13 +15,12 @@ interface FooterProps {
 }
 
 const Footer = () => {
-  const data = useStaticQuery<FooterProps>(graphql`
+  const { site } = useStaticQuery<FooterProps>(graphql`
     query {
       site {
         siteMetadata {
           labInfomation {
             address
-            tel
           }
         }
       }
@@ -31,10 +30,16 @@ const Footer = () => {
   return (
     <footer className={FooterStyle.footerWrapper}>
       <div className={FooterStyle.innerWrapper}>
-        <img src={FooterLogoImg} className={FooterStyle.logo} />
-        <span>
-          Copyright © {new Date().getFullYear()} HCI Laboratory, Inha University
-        </span>
+        <a href="https://www.inha.ac.kr">
+          <img src={FooterLogoImg} className={FooterStyle.logo} />
+        </a>
+        <div className={FooterStyle.footerContent}>
+          <span>{site.siteMetadata.labInfomation.address}</span>
+          <span>
+            Copyright © {new Date().getFullYear()} HCI Laboratory, Inha
+            University
+          </span>
+        </div>
       </div>
     </footer>
   )

@@ -27,6 +27,15 @@
   font-size: var(--fontSize-0);
 }
 
+.footerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContent span {
+  text-align: end;
+}
+
 @media (max-width: 740px) {
   .innerWrapper {
     display: flex;
@@ -36,5 +45,9 @@
 
   .logo {
     margin-bottom: 15px;
+  }
+
+  .footerContent span {
+    text-align: center;
   }
 }

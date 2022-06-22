@@ -4,9 +4,15 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SiteIndex = () => {
+interface SiteIndexProps {
+  location: {
+    pathname: string
+  }
+}
+
+const SiteIndex = ({ location }: SiteIndexProps) => {
   return (
-    <Layout>
+    <Layout location={location}>
       <Seo title="Home" />
       Home
     </Layout>

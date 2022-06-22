@@ -1,3 +1,7 @@
+.IndexWrapper {
+  height: 100vh;
+}
+
 .headerWrapper {
   width: 100vw;
   max-height: 100px;
@@ -6,7 +10,7 @@
   align-items: center;
   justify-content: center;
 
-  box-shadow: 0 2px 2px #eeeeee;
+  background-color: #fff;
 }
 
 .innerWrapper {
