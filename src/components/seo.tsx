@@ -18,9 +18,6 @@ const Seo = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            social {
-              twitter
-            }
           }
         }
       }
@@ -36,7 +33,7 @@ const Seo = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : undefined}
       meta={[
         {
           name: `description`,
@@ -59,10 +56,6 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
-        },
-        {
           name: `twitter:title`,
           content: title,
         },
@@ -76,7 +69,7 @@ const Seo = ({ description, lang, meta, title }) => {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `ko`,
   meta: [],
   description: ``,
 }
