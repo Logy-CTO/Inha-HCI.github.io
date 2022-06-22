@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import * as FooterStyle from "./footer.module.css"
-import FooterLogoImg from "../../images/footer_logo.png"
+import FooterLogoImg from "../../assets/images/footer_logo.png"
 
 interface FooterProps {
   site: {

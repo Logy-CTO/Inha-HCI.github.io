@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { MdMenu } from "react-icons/md"
 import * as HeaderStyle from "./header.module.css"
-import LogoImg from "../../images/logo.png"
+import LogoImg from "../../assets/images/logo.png"
 import VisualBox from "../visualBox"
 import BreadCrump from "../breadcrump"
 
