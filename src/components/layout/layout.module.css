@@ -1,0 +1,9 @@
+.sidebar {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .sidebar {
+    display: block;
+  }
+}
