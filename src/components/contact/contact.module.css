@@ -1,0 +1,55 @@
+.contactWrapper {
+  background-color: #fbfbfd;
+  padding: 30px;
+}
+
+.innerWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.innerWrapper > h4 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.info,
+.mapWrapper {
+  width: 100%;
+}
+
+.info > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h6 {
+  margin: 15px 0;
+}
+
+.info div span {
+  color: #6a6a6a;
+}
+
+.info > div:last-child span:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.mapWrapper iframe {
+  border: 0;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+  .mapWrapper {
+    margin-top: 30px;
+    height: 300px;
+  }
+}

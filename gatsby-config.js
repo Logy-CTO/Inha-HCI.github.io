@@ -6,6 +6,8 @@ module.exports = {
     labInfomation: {
       address: "인천광역시 미추홀구 인하로 100, 인하대학교 하이테크관 1313호",
       tel: "032-860-7443",
+      email: "jwkwon@inha.ac.kr",
+      office: "하이테크 1313호",
     },
   },
   plugins: [

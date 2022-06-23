@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ResearchTopics from "../components/researchTopics"
+import Contact from "../components/contact"
 
 interface SiteIndexProps {
   location: {
@@ -15,6 +16,7 @@ const SiteIndex = ({ location }: SiteIndexProps) => {
     <Layout location={location}>
       <Seo title="Home" />
       <ResearchTopics />
+      <Contact />
     </Layout>
   )
 }
