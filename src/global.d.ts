@@ -4,3 +4,5 @@ declare module "*.module.css" {
   export = styles
 }
 declare module "*.png"
+declare module "*.jpg"
+declare module "*.mp4"
