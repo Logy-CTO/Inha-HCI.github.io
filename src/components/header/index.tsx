@@ -4,7 +4,7 @@ import { MdMenu } from "react-icons/md"
 import * as HeaderStyle from "./header.module.css"
 import LogoImg from "../../assets/images/logo.png"
 import VisualBox from "../visualBox"
-import BreadCrump from "../breadcrump"
+import BreadCrumb from "../breadcrumb"
 
 interface HeaderProps {
   activeSideBar: () => void
@@ -36,7 +36,7 @@ const Header = ({ activeSideBar, location }: HeaderProps) => {
       {isRootPath ? (
         <VisualBox />
       ) : (
-        <BreadCrump title={location.pathname.substring(1)} />
+        <BreadCrumb title={location.pathname.substring(1)} />
       )}
     </div>
   )

@@ -1,17 +1,17 @@
-.breadCrumpWrapper {
+.breadCrumbWrapper {
   position: relative;
   display: flex;
   align-content: center;
   justify-content: center;
   width: 100vw;
   padding: 80px;
-  background-image: url("../../assets/images/breadcrump.jpg");
+  background-image: url("../../assets/images/breadcrumb.jpg");
   background-size: cover;
   background-position: 50% 45%;
   z-index: -1;
 }
 
-.breadCrumpWrapper::before {
+.breadCrumbWrapper::before {
   position: absolute;
   top: 0;
   content: "";
@@ -24,10 +24,11 @@
 .title {
   color: #fff;
   z-index: 0;
+  text-transform: capitalize;
 }
 
 @media (max-width: 500px) {
-  .breadCrumpWrapper {
+  .breadCrumbWrapper {
     padding: 40px;
   }
 }
