@@ -250,3 +250,13 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+.outerWrapper {
+  margin: 30px;
+}
+
+.innerWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}

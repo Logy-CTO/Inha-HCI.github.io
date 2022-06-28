@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import * as StudentInfoStyle from "./studentInfo.module.css"
 import StudentProfile from "../studentProfile"
+import ContentWrapper from "../contentWrapper"
 
 interface Profile {
   id: string
@@ -75,41 +76,39 @@ const StudentInfo = () => {
   ]
 
   return (
-    <div className={StudentInfoStyle.StudentInfoWrapper}>
-      <div className={StudentInfoStyle.innerWrapper}>
-        {groups.map(group => {
-          return (
-            <div key={group}>
-              <h3>{group}</h3>
-              <div className={StudentInfoStyle.group}>
-                {profiles
-                  .filter(student => student.node.type === group)
-                  .sort((a, b) => (a.node.priority > b.node.priority ? 1 : -1))
-                  .map((student, idx) => {
-                    const image = images.find(
-                      img => img.name === student.node.name
-                    )
-                    return (
-                      <StudentProfile
-                        imgSrc={image!.publicURL}
-                        imgRatio={image!.childImageSharp.fixed.aspectRatio}
-                        email={student.node.email}
-                        name={student.node.name}
-                        company={student.node.company}
-                        degree={student.node.degree}
-                        interested={student.node.interested}
-                        key={student.node.name + student.node.type}
-                        homepage={student.node.homepage}
-                        github={student.node.github}
-                      />
-                    )
-                  })}
-              </div>
+    <ContentWrapper>
+      {groups.map(group => {
+        return (
+          <div key={group}>
+            <h3>{group}</h3>
+            <div className={StudentInfoStyle.group}>
+              {profiles
+                .filter(student => student.node.type === group)
+                .sort((a, b) => (a.node.priority > b.node.priority ? 1 : -1))
+                .map((student, idx) => {
+                  const image = images.find(
+                    img => img.name === student.node.name
+                  )
+                  return (
+                    <StudentProfile
+                      imgSrc={image!.publicURL}
+                      imgRatio={image!.childImageSharp.fixed.aspectRatio}
+                      email={student.node.email}
+                      name={student.node.name}
+                      company={student.node.company}
+                      degree={student.node.degree}
+                      interested={student.node.interested}
+                      key={student.node.name + student.node.type}
+                      homepage={student.node.homepage}
+                      github={student.node.github}
+                    />
+                  )
+                })}
             </div>
-          )
-        })}
-      </div>
-    </div>
+          </div>
+        )
+      })}
+    </ContentWrapper>
   )
 }
 

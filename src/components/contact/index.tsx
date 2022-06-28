@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import * as ContactStyle from "./contact.module.css"
+import ContentWrapper from "../contentWrapper"
 
 const Contact = () => {
   const {

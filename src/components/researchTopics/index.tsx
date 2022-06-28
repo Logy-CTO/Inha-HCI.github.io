@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import * as ResearchTopicsStyle from "./researchTopics.module.css"
 import Media from "../media"
+import ContentWrapper from "../contentWrapper"
 
 interface MediaFile {
   extension: string
@@ -25,47 +26,45 @@ const ResearchTopics = () => {
   `)
 
   return (
-    <div className={ResearchTopicsStyle.researchTopicsWrapper}>
-      <div className={ResearchTopicsStyle.innerWrapper}>
-        <h4>Research Topics</h4>
-        <p>
-          Human–computer interaction (HCI) studies the design and use of
-          computer technology, focused on the interfaces between people (users)
-          and computers.
-        </p>
-        <p>We work in the following areas</p>
-        <div className={ResearchTopicsStyle.contentWrapper}>
-          <div>
-            {nodes
-              .filter((node, idx) => idx % 2 === 0)
-              .map(node => {
-                return (
-                  <Media
-                    src={node.publicURL}
-                    video={node.extension === "mp4"}
-                    label={node.name}
-                    key={node.name}
-                  />
-                )
-              })}
-          </div>
-          <div>
-            {nodes
-              .filter((node, idx) => idx % 2 !== 0)
-              .map(node => {
-                return (
-                  <Media
-                    src={node.publicURL}
-                    video={node.extension === "mp4"}
-                    label={node.name}
-                    key={node.name}
-                  />
-                )
-              })}
-          </div>
+    <ContentWrapper>
+      <h4>Research Topics</h4>
+      <p>
+        Human–computer interaction (HCI) studies the design and use of computer
+        technology, focused on the interfaces between people (users) and
+        computers.
+      </p>
+      <p>We work in the following areas</p>
+      <div className={ResearchTopicsStyle.contentWrapper}>
+        <div>
+          {nodes
+            .filter((node, idx) => idx % 2 === 0)
+            .map(node => {
+              return (
+                <Media
+                  src={node.publicURL}
+                  video={node.extension === "mp4"}
+                  label={node.name}
+                  key={node.name}
+                />
+              )
+            })}
+        </div>
+        <div>
+          {nodes
+            .filter((node, idx) => idx % 2 !== 0)
+            .map(node => {
+              return (
+                <Media
+                  src={node.publicURL}
+                  video={node.extension === "mp4"}
+                  label={node.name}
+                  key={node.name}
+                />
+              )
+            })}
         </div>
       </div>
-    </div>
+    </ContentWrapper>
   )
 }
 
