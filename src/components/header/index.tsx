@@ -25,7 +25,7 @@ const Header = ({ activeSideBar, location }: HeaderProps) => {
           <div className={HeaderStyle.menus}>
             <Link to="/members">Members</Link>
             <Link to="/research">Research</Link>
-            <Link to="/papers">Paper</Link>
+            <Link to="/papers">Papers</Link>
             <Link to="/news">News</Link>
           </div>
           <div className={HeaderStyle.sidebarButton}>
