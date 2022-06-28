@@ -14,10 +14,10 @@ const SideBar = ({ inactiveSideBar }: SideBarProps) => {
         <MdClose size={"2rem"} onClick={() => inactiveSideBar()} />
 
         <div className={SideBarStyle.menuWrapper}>
-          <Link to="members">Members</Link>
-          <Link to="research">Research</Link>
-          <Link to="papers">Paper</Link>
-          <Link to="news">News</Link>
+          <Link to="/members">Members</Link>
+          <Link to="/research">Research</Link>
+          <Link to="/papers">Paper</Link>
+          <Link to="/news">News</Link>
         </div>
       </div>
     </div>
