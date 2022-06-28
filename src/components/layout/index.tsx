@@ -5,11 +5,11 @@ import SideBar from "../sidebar"
 import * as LayoutStyle from "./layout.module.css"
 
 interface LayoutProps {
-  location: any
+  title: string
   children: React.ReactNode
 }
 
-const Layout = ({ location, children }: LayoutProps) => {
+const Layout = ({ title, children }: LayoutProps) => {
   const [sideBarActive, setSideBarActive] = useState<boolean>(false)
   return (
     <div className="global-wrapper">
@@ -18,10 +18,7 @@ const Layout = ({ location, children }: LayoutProps) => {
           <SideBar inactiveSideBar={() => setSideBarActive(false)} />
         </div>
       )}
-      <Header
-        activeSideBar={() => setSideBarActive(true)}
-        location={location}
-      />
+      <Header activeSideBar={() => setSideBarActive(true)} title={title} />
       <main>{children}</main>
       <Footer />
     </div>

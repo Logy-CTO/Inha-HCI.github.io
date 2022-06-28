@@ -4,15 +4,9 @@ import Seo from "../components/seo"
 import ResearchInfo from "../components/researchTopics"
 import Projects from "../components/projects"
 
-interface SiteResearchProps {
-  location: {
-    pathname: string
-  }
-}
-
-const SiteResearch = ({ location }: SiteResearchProps) => {
+const SiteResearch = () => {
   return (
-    <Layout location={location}>
+    <Layout title="Research">
       <Seo title="Research" />
       <ResearchInfo />
       <Projects />

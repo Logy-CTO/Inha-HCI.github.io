@@ -3,15 +3,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Papers from "../components/papers"
 
-interface SitePapersProps {
-  location: {
-    pathname: string
-  }
-}
-
-const SitePapers = ({ location }: SitePapersProps) => {
+const SitePapers = () => {
   return (
-    <Layout location={location}>
+    <Layout title="Papers">
       <Seo title="Papers" />
       <Papers />
     </Layout>

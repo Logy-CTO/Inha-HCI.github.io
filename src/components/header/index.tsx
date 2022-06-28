@@ -8,12 +8,10 @@ import BreadCrumb from "../breadcrumb"
 
 interface HeaderProps {
   activeSideBar: () => void
-  location: {
-    pathname: string
-  }
+  title: string
 }
 
-const Header = ({ activeSideBar, location }: HeaderProps) => {
+const Header = ({ activeSideBar, title }: HeaderProps) => {
   const isRootPath = location.pathname === "/"
   return (
     <div className={isRootPath ? HeaderStyle.IndexWrapper : undefined}>
@@ -33,11 +31,7 @@ const Header = ({ activeSideBar, location }: HeaderProps) => {
           </div>
         </div>
       </header>
-      {isRootPath ? (
-        <VisualBox />
-      ) : (
-        <BreadCrumb title={location.pathname.substring(1)} />
-      )}
+      {isRootPath ? <VisualBox /> : <BreadCrumb title={title} />}
     </div>
   )
 }

@@ -5,15 +5,9 @@ import Seo from "../components/seo"
 import ResearchTopics from "../components/researchTopics"
 import Contact from "../components/contact"
 
-interface SiteIndexProps {
-  location: {
-    pathname: string
-  }
-}
-
-const SiteIndex = ({ location }: SiteIndexProps) => {
+const SiteIndex = () => {
   return (
-    <Layout location={location}>
+    <Layout title="Home">
       <Seo title="Home" />
       <ResearchTopics />
       <Contact />
@@ -22,13 +16,3 @@ const SiteIndex = ({ location }: SiteIndexProps) => {
 }
 
 export default SiteIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
