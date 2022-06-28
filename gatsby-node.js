@@ -6,21 +6,25 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.tsx`)
+  const newsList = path.resolve(`./src/templates/news-list.tsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
+        site {
+          siteMetadata {
+            newsPerPage
+          }
+        }
+        allMarkdownRemark(sort: { order: ASC, fields: frontmatter___date }) {
           nodes {
-            id
             fields {
               slug
             }
+            id
           }
+          totalCount
         }
       }
     `
@@ -35,25 +39,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const posts = result.data.allMarkdownRemark.nodes
-
-  // Create blog posts pages
-  // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
-  // `context` is available in the template as a prop and as a variable in GraphQL
+  const totalCount = result.data.allMarkdownRemark.totalCount
+  const newsPerPage = result.data.site.siteMetadata.newsPerPage
 
   if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-
+    posts.forEach(post => {
       createPage({
         path: post.fields.slug,
         component: blogPost,
         context: {
           id: post.id,
-          previousPostId,
-          nextPostId,
         },
       })
+    })
+  }
+
+  for (idx = 0; idx * newsPerPage < totalCount; idx++) {
+    const path = idx === 0 ? "" : idx
+    createPage({
+      path: `/news/${path}`,
+      component: newsList,
+      context: {
+        skip: idx * newsPerPage,
+        limit: newsPerPage,
+        idx,
+      },
     })
   }
 }

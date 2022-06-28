@@ -1,0 +1,17 @@
+.NewsListWrapper {
+  padding: 30px;
+}
+
+.innerWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.list {
+  margin: 50px 0;
+}
+
+.list > div:not(.list > div:last-child) {
+  border-bottom: 2px solid #eeeeee;
+}

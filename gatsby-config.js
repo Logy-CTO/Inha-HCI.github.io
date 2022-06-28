@@ -9,6 +9,7 @@ module.exports = {
       email: "jwkwon@inha.ac.kr",
       office: "하이테크 1313호",
     },
+    newsPerPage: 10,
   },
   plugins: [
     `gatsby-plugin-image`,
