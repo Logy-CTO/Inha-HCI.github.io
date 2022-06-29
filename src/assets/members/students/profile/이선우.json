@@ -1,0 +1,12 @@
+{
+  "priority": 1,
+  "type": "Ph.D. Students",
+  "name": "이선우",
+  "email": "x21999@inha.edu",
+  "interested": [
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "Anomaly detection"
+  ]
+}

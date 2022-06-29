@@ -1,0 +1,8 @@
+{
+  "priority": 4,
+  "type": "M.S. Students",
+  "name": "양호준",
+  "email": "hojune0303@naver.com",
+  "interested": ["Abnormal detection", "Deep learning", "Model compression"],
+  "homepage": "https://yanghojun.github.io/"
+}

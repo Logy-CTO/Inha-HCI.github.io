@@ -1,0 +1,11 @@
+{
+  "priority": 2,
+  "type": "M.S. Students",
+  "name": "홍수웅",
+  "email": "hsw2012s@gmail.com",
+  "interested": [
+    "Vibration engineering",
+    "Machine learning",
+    "Abnormal detection"
+  ]
+}
