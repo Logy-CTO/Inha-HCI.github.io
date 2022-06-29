@@ -19,13 +19,13 @@ const NewsListItem = ({
   link,
 }: NewsListItemProps) => {
   return (
-    <div className={NewsListItemStyle.NewsListItemWrapper}>
-      <Link to={link} className={NewsListItemStyle.link}>
+    <Link to={link} className={NewsListItemStyle.link}>
+      <div className={NewsListItemStyle.NewsListItemWrapper}>
         <h4 className={NewsListItemStyle.title}>{title}</h4>
         <span className={NewsListItemStyle.date}>{date}</span>
         <p className={NewsListItemStyle.description}>{description}</p>
-      </Link>
-    </div>
+      </div>
+    </Link>
   )
 }
 
