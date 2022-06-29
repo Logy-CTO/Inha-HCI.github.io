@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 const Header = ({ activeSideBar, title }: HeaderProps) => {
-  const isRootPath = location.pathname === "/"
+  const isRootPath = title === "Home"
   return (
     <div className={isRootPath ? HeaderStyle.IndexWrapper : undefined}>
       <header className={HeaderStyle.headerWrapper}>
