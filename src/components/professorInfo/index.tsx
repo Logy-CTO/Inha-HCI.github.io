@@ -20,7 +20,7 @@ const ProfessorInfo = () => {
               <span>권장우 (Jangwoo Kwon)</span>
               <span>Professor at INHA University</span>
               <span>E-mail: jwkwon@inha.ac.kr</span>
-              <span>Office: 하이테크 1313</span>
+              <span>Office: 하이테크관 1313호</span>
             </div>
             <div className={ProfessorInfoStyle.academicBackground}>
               <h6>Academic Background</h6>

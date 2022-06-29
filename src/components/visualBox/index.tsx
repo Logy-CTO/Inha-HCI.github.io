@@ -5,11 +5,8 @@ const VisualBox = () => {
   return (
     <div className={VisualBoxStyle.visualBoxWrapper}>
       <div className={VisualBoxStyle.siteDescription}>
-        <h1>Lorem Ipsum</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <h1>HCI Lab #Inha univ.</h1>
+        <p>Human–Computer Interaction Lab</p>
       </div>
     </div>
   )
