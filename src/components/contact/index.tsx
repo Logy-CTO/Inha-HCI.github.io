@@ -29,7 +29,7 @@ const Contact = () => {
         <div className={ContactStyle.content}>
           <div className={ContactStyle.info}>
             <div>
-              <h6>Office address</h6>
+              <h6>Office Address</h6>
               <span>{labInfomation.address}</span>
             </div>
             <div>

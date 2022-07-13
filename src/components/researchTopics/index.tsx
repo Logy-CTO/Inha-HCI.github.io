@@ -29,7 +29,7 @@ const ResearchTopics = () => {
     <ContentWrapper>
       <h4>Research Topics</h4>
       <p>
-        Human–computer interaction (HCI) studies the design and use of computer
+        Human–Computer Interaction (HCI) studies the design and use of computer
         technology, focused on the interfaces between people (users) and
         computers.
       </p>
