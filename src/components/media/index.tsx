@@ -19,9 +19,14 @@ const Media = ({ src, label, video = false }: MediaProps) => {
           autoPlay={true}
           loop={true}
           muted={true}
+          playsInline={true}
         />
       ) : (
-        <img className={MediaStyle.media} src={src} alt={label} />
+        <img
+          className={`${MediaStyle.media} ${MediaStyle.image}`}
+          src={src}
+          alt={label}
+        />
       )}
       <span className={MediaStyle.label}>{label}</span>
     </div>
