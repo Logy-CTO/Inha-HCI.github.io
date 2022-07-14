@@ -1,0 +1,8 @@
+.list {
+  margin: 50px 0;
+}
+
+.list > a:not(.list > a:last-child) {
+  display: block;
+  border-bottom: 2px solid #eeeeee;
+}

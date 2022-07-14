@@ -1,0 +1,33 @@
+.sideBarWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.sideBarBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  min-width: 280px;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+
+.menuWrapper a {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 5px;
+}

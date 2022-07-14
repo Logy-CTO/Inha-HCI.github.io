@@ -1,0 +1,9 @@
+{
+  "priority": 21,
+  "type": "Alumni",
+  "name": "박승찬",
+  "email": "ark10806@gmail.com",
+  "interested": ["Abnormal detection", "Deep learning"],
+  "company": "Kakao",
+  "degree": "BS"
+}

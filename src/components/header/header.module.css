@@ -1,0 +1,62 @@
+.IndexWrapper {
+  height: 100vh;
+}
+
+.headerWrapper {
+  width: 100vw;
+  max-height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 50px;
+}
+
+.logo {
+  position: relative;
+  width: 144px;
+  height: 52px;
+  top: 5px;
+}
+
+.menus > a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebarButton {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .menus {
+    display: none;
+  }
+  .sidebarButton {
+    display: block;
+  }
+
+  .innerWrapper {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 115px;
+    height: 41px;
+  }
+}
