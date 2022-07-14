@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "hci_lab_homepage",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "HCI-Lab",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "HCI-Lab",
   "dependencies": {
     "gatsby": "^4.17.2",
     "gatsby-plugin-feed": "^4.16.0",
