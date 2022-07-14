@@ -1,0 +1,90 @@
+.ProfessorInfoWrapper {
+  width: 100%;
+  padding: 30px;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+}
+
+.pic {
+  max-height: 400px;
+  min-width: 300px;
+  aspect-ratio: 3/4;
+}
+
+.profile > span:first-child {
+  color: #000;
+  font-size: var(--fontSize-3);
+  font-weight: var(--fontWeight-semibold);
+  margin: 0;
+}
+
+.info {
+  margin-left: 50px;
+}
+
+.info div > span {
+  margin-top: 5px;
+  color: #6a6a6a;
+}
+
+.academicBackground > span > span {
+  display: inline-block;
+  width: 7rem;
+}
+
+.career > span > span {
+  display: inline-block;
+  width: 6rem;
+}
+
+.info > div > h6 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.profile,
+.academicBackground,
+.career {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .info {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 665px) {
+  .summary {
+    flex-direction: column;
+  }
+  .info {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .summary {
+    width: fit-content;
+  }
+  .pic {
+    min-width: 0px;
+    aspect-ratio: 3/4;
+  }
+}

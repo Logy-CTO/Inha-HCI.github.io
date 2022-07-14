@@ -1,0 +1,22 @@
+.NewsListItemWrapper {
+  margin: 25px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #6a6a6a;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
