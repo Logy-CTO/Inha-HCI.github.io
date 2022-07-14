@@ -66,6 +66,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 }
 
+exports.createPages = async ({ graphql, actions }) => {
+  const { createRedirect } = actions
+
+  createRedirect({
+    fromPath: `/HCI-Lab/index.html`,
+    toPath: `/`,
+  })
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
