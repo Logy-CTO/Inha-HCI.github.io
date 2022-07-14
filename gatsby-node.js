@@ -2,7 +2,7 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
 
   const newsPost = path.resolve(`./src/templates/news-post.tsx`)
   const newsList = path.resolve(`./src/templates/news-list.tsx`)
@@ -64,10 +64,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   }
-}
-
-exports.createPages = async ({ graphql, actions }) => {
-  const { createRedirect } = actions
 
   createRedirect({
     fromPath: `/HCI-Lab/index.html`,
