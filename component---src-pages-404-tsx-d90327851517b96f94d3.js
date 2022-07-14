@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhci_lab_homepage=self.webpackChunkhci_lab_homepage||[]).push([[218],{2224:function(e,t,n){n.r(t);var l=n(7294),u=n(1290),a=n(3765);t.default=function(){return l.createElement(u.Z,{title:"404: Not Found"},l.createElement(a.Z,{title:"404: Not Found"}),l.createElement("h1",null,"404: Not Found"))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-d90327851517b96f94d3.js.map
