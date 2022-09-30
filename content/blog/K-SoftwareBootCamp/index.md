@@ -3,6 +3,7 @@ title: K-Software BootCamp
 date: "2022-06-28"
 description: "인하대학교에서 SW 개발에 관심있는 인재를 양성하고 현업 중심의 프로젝트를 경험할 수 있는 <K-Software BootCamp 2022>를 시작합니다."
 featuredImage: ./Untitled.png
+class: default
 ---
 
 > 인하대학교에서 SW 개발에 관심있는 인재를 양성하고 현업 중심의 프로젝트를 경험할 수 있는 <K-Software BootCamp 2022>를 시작합니다

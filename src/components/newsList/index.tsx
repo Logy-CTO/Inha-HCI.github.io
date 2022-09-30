@@ -25,13 +25,14 @@ const NewsList = ({ list }: NewsListProps) => {
     <ContentWrapper>
       <div className={NewsListStyle.list}>
         {list.map(news => {
+          console.log(news.fields.slug)
           return (
             <NewsListItem
               title={news.frontmatter.title}
               date={news.frontmatter.date}
               description={news.frontmatter.description || news.excerpt}
               featuredImage={news.frontmatter.featuredImage}
-              link={news.fields.slug}
+              link={"/news" + news.fields.slug}
               key={news.frontmatter.title}
             />
           )
