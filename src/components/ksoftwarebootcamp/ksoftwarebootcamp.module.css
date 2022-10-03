@@ -149,5 +149,22 @@ h5{
     font-weight: 800;
     font-size: 3em;;
     color: white;
+    margin-top: 3%;
+}
+
+.FAQ_last_h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
     margin-top: 2%;
+    margin-bottom: 13%;
+    color: white;
+}
+
+.contact_second_title{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: white;
+    margin-top: 7%;
 }
