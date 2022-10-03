@@ -1,0 +1,221 @@
+h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+.h5_before_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+.h5_before_img {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+.schedule_h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.top_navigator {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  flex-direction: row;
+}
+.nav_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+  text-align: left;
+}
+.menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #525252;
+}
+
+/*  */
+.content_container {
+  width: 100%;
+}
+.title {
+  margin-top: 3%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3em;
+  text-align: left;
+  line-height: 1em;
+  color: white;
+}
+.content_container h5 {
+  color: white;
+}
+/* contact_h5 이상함 */
+.contact_h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: white;
+}
+.top_content > img {
+  height: 80vh;
+}
+.first_h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.first_title {
+  border-left: thick solid white;
+  padding-left: 2%;
+  height: 7%;
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+}
+.second_title {
+  font-size: 1.7em;
+  font-weight: 700;
+  color: white;
+  margin-top: 3%;
+}
+.third_title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+}
+.prgintro_img {
+  width: 60vw;
+  margin: 3% auto 0 auto;
+}
+.prg_img {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto 10% auto;
+}
+.map_img {
+  width: 100%;
+  height: 400px;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border: 0;
+}
+.professors_img {
+  margin: 0 auto 10% auto;
+  width: 80%;
+}
+.faculty_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5em;
+  color: white;
+}
+.faculty_subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.faculty_pr {
+  font-family: "Inter";
+  font-style: Italic;
+  font-weight: 700;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 5%;
+}
+.faculty_img {
+  min-width: 200px;
+  flex: 3;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.faculty_info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: white;
+  margin-bottom: 10%;
+}
+.mentor_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.contact_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3em;
+  color: white;
+  margin-top: 3%;
+}
+
+.FAQ_last_h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.contact_second_title {
+  font-size: 1.7em;
+  font-weight: 700;
+  color: white;
+  margin-top: 3%;
+}
+.faculty_box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+.faculty_description {
+  flex: 7;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
