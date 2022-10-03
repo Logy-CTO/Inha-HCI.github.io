@@ -82,31 +82,49 @@ const KSoftwareBootcamp = () => {
           <StaticImage className={Style.professors_img} src="../../assets/images/professors.png"></StaticImage>
 
           <div className={Style.first_title}>권장우</div>
-          <StaticImage className={Style.faculty_img} src="../../assets/images/kjw2.png"></StaticImage>
-          <div className={Style.faculty_pr}>교육생들의 꿈을 현실로</div>
-          <div className={Style.faculty_info}>Career<br/>
-          1996~1998특허청 사무관<br/>
-          1998~2009동명대학교 부교수<br/>
-          2005~2006정보통신연구진흥원 전문위원<br/>
-          2006~2009정보통신연구진흥원 인력양성단장<br/>
-          2009~2012정보통신산업진흥원 인재양성단장<br/>
-          2012~인하대학교 교수<br/>
-          2022~인하대학교 sw중심대학사업단 단장</div>
+          <div className={Style.faculty_box}>
+            <StaticImage className={Style.faculty_img} src="../../assets/images/kjw2.png"></StaticImage>
+            <div className={Style.faculty_description}>
+              <div className={Style.faculty_pr}>교육생들의 꿈을 현실로</div>
+              <div className={Style.faculty_info}>Career<br/>
+              1996~1998특허청 사무관<br/>
+              1998~2009동명대학교 부교수<br/>
+              2005~2006정보통신연구진흥원 전문위원<br/>
+              2006~2009정보통신연구진흥원 인력양성단장<br/>
+              2009~2012정보통신산업진흥원 인재양성단장<br/>
+              2012~인하대학교 교수<br/>
+              2022~인하대학교 sw중심대학사업단 단장</div>
+            </div>
+          </div>
+
+
 
           <div className={Style.first_title}>이선우</div>
-          <StaticImage className={Style.faculty_img} src="../../assets/images/lsw2.png"></StaticImage>
-          <div className={Style.faculty_pr}>부드러운 카리스마로 최선을 다하는</div>
-          <div className={Style.faculty_info}>담당과목: 빅데이터분석, 기계학습, 인공지능, 데이터베이스</div>
+          <div className={Style.faculty_box}>
+            <StaticImage className={Style.faculty_img} src="../../assets/images/lsw2.png"></StaticImage>
+            <div className={Style.faculty_description}>
+              <div className={Style.faculty_pr}>부드러운 카리스마</div>
+              <div className={Style.faculty_info}>담당과목: 빅데이터분석, 기계학습, 인공지능, 데이터베이스</div>
+            </div>
+          </div>
 
           <div className={Style.first_title}>김태간</div>
-          <StaticImage className={Style.faculty_img} src="../../assets/images/ktg2.png"></StaticImage>
-          <div className={Style.faculty_pr}>섬세히 그리고 다정히 다가가는</div>
-          <div className={Style.faculty_info}>담당과목: c++, JAVA, react, 컴퓨터 네트워크, python</div>
+          <div className={Style.faculty_box}>
+            <StaticImage className={Style.faculty_img} src="../../assets/images/ktg2.png"></StaticImage>
+            <div className={Style.faculty_description}>
+              <div className={Style.faculty_pr}>다정히 그리고 친절히</div>
+              <div className={Style.faculty_info}>담당과목: c++, JAVA, react, 컴퓨터 네트워크, python</div>
+            </div>
+          </div>
 
           <div className={Style.first_title}>이다영</div>
-          <StaticImage className={Style.faculty_img} src="../../assets/images/ldy2.png"></StaticImage>
-          <div className={Style.faculty_pr}>더 나은 수업을 위해 힘쓰는</div>
-          <div className={Style.faculty_info}>담당과목: OS</div>
+          <div className={Style.faculty_box}>
+            <StaticImage className={Style.faculty_img} src="../../assets/images/ldy2.png"></StaticImage>
+            <div className={Style.faculty_description}>
+              <div className={Style.faculty_pr}>더 나은 수업을 위해</div>
+              <div className={Style.faculty_info}>담당과목: OS</div>
+            </div>
+          </div>
           <div className={Style.first_title}>수업참여멘토</div>
           <div className={Style.mentor_name}>김종구 (인하대학교 대학원 전기컴퓨터공학과)<br/>양호준 (인하대학교 대학원 전기컴퓨터공학과)<br/>이문형 (인하대학교 대학원 전기컴퓨터공학과)<br/>정회준 (인하대학교 대학원 전기컴퓨터공학과)<br/>최정무 (인하대학교 컴퓨터공학과)<br/>소찬균 (인하대학교 컴퓨터공학과)<br/>김시진 (인하대학교 컴퓨터공학과)</div>
       </div>

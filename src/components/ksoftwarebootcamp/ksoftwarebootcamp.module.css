@@ -154,6 +154,7 @@ h5{
     font-weight: 700;
     font-size: 4.5em;
     color:white;
+    margin-bottom: 5%;
 }
 .faculty_img{
     width:25vw;
@@ -201,4 +202,13 @@ h5{
     font-weight: 700;
     color: white;
     margin-top: 7%;
+}
+.faculty_box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+.faculty_description{
+    margin-left:5%;
+    margin-top:5%;
 }
