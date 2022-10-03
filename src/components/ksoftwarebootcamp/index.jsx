@@ -61,13 +61,20 @@ const KSoftwareBootcamp = () => {
           <img src="../../../assets/game.png"></img>
         </div>
         <div className={Style.schedule-box}>
-        <div className={Style.first-title}>교육일정</div>
-        <h5>7~8월(주 5일) 280시간 →오프라인</h5>
-        <h5>9월~ 12월 80시간 → 온라인 및 주말 (변동있음)</h5>
-        <h5>12월~2월(겨울방학 기업교육) → 무료셔틀</h5>
-        <h4>교육 시작일</h4>
-        <h5>2022년 7월 15일</h5>
-        <img src="../../../assets/schedule.png"/>
+          <div className={Style.first-title}>교육일정</div>
+          <h5>7~8월(주 5일) 280시간 →오프라인</h5>
+          <h5>9월~ 12월 80시간 → 온라인 및 주말 (변동있음)</h5>
+          <h5>12월~2월(겨울방학 기업교육) → 무료셔틀</h5>
+          <h4>교육 시작일</h4>
+          <h5>2022년 7월 15일</h5>
+          <img src="../../../assets/schedule.png"/>
+        </div>
+        <div className={Style.faculty}>
+          <div className={Style.faculty-title}>열정과 진심으로</div>
+          <h5>교육에 대한 열정과 학생들에 대한 진심으로<br/> 
+          더 나은 &lt;K-Software BootCamp 2022&gt;를 만들어 갑니다</h5>
+          <div className={Style.first-title}>이서진 교수님</div>
+          
         </div>
       </div>
     </ContentWrapper>
