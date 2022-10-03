@@ -86,6 +86,19 @@ const KSoftwareBootcamp = () => {
           <div className={Style.question}>Q3. 일정표(교육기간) , 교육과목, 장소 등이 궁금합니다.</div>
           <div className={Style.answer}>A3. 현재 교육장소는 인하대학교내의 하이테크혹은 60주년 기념관 건물을 사용예정중에 있습니다. 또한, 교육과목은 기업과의 연계를 통해 협의하에 있습니다.</div>
         </div>
+
+        <div className={Style.contact}>
+          <div className={Style.contact-title}>Contact</div>
+          <h5>기타 문의 사항이 있다면 연락 또는 방문 부탁드립니다.</h5>
+          <div className={Style.first-title}>이메일</div>
+          <h5>x21999@inha.ac.kr</h5>
+          <div className={Style.first-title}>전화번호</div>
+          <h5>032-860-9504</h5>
+          <div className={Style.first-title}>오시는 길</div>
+          <h5>인천광역시 남구 용현동 인하로 100</h5>
+          <h5>60주년 기념관 1406호</h5>
+          <img src="../../../assets/map4here.png"/>
+        </div>
       </div>
     </ContentWrapper>
   )
