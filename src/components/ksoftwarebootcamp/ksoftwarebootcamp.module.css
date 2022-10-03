@@ -1,11 +1,26 @@
-.top-navigator{
+h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-bottom: 10%
+    
+}
+.h5_before_img{
+    margin-bottom: 3%;
+}
+.first_h5{
+    margin-bottom: 15%;
+}
+.top_navigator{
     display: flex;
     width: 100%;
     height: 30%;
     background-color: white;
     flex-direction: row;
 }
-.nav-title{
+.nav_title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -20,25 +35,57 @@
     font-size: 36px;
     color: #525252;
 }
-.content-container{
+
+/*  */
+.content_container{
     background-color: #211745;
     width: 100%
 }
 .title{
+    margin-top: 3%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
+    font-size: 3em;
     text-align: left;
+    line-height: 1em;
     color: white;
 }
-.content-container h5{
+.content_container h5{
     color:white;
 }
-.top-content img{
-    width: 80%;
+.top_content > img{
+    height: 80vh;
 }
-.faculty-title{
+
+.first_title{
+    border-left: thick solid white;
+    padding-left: 2%;
+    height: 7%;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+.second_title{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: white;
+    margin-top: 10%;
+}
+.third_title{
+    font-size: 1.3em;
+    font-weight:600;
+    color: white;
+}
+.prgintro_img{
+    width:80vw;
+    margin-top: 3%;
+}
+.basic_programming_img{
+    width:80vw;
+    margin-top: 3%;
+}
+.faculty_title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
