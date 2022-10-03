@@ -76,6 +76,16 @@ const KSoftwareBootcamp = () => {
           <div className={Style.first-title}>이서진 교수님</div>
           
         </div>
+        <div className={Style.FAQ}>
+          <div className={Style.FAQ-title}>FAQ</div>
+          <h5>자주 유입되는 문의사항은 FAQ에 업데이트 될 예정입니다.</h5>
+          <div className={Style.question}>Q1. K-Software BootCamp는 누구를 위한 대상인가요?</div>
+          <div className={Style.answer}>A1. 인하대학교의 K-Software BootCamp는 비전공의 학생에 중점을 맞춘 커리큘럼으로써 IT관심이 있는 학생(복수,부전공, 연계,마이크로 전공 포함)이라면 누구나 지원이 가능하며 비전공자 우대합니다.</div>
+          <div className={Style.question}>Q2. 신청서를 잘못 제출하였습니다. 어떻게 해야 하나요?</div>
+          <div className={Style.answer}>A2. 마지막에 접수된 신청서를 최종 신청서로 구별할 예정입니다.</div>
+          <div className={Style.question}>Q3. 일정표(교육기간) , 교육과목, 장소 등이 궁금합니다.</div>
+          <div className={Style.answer}>A3. 현재 교육장소는 인하대학교내의 하이테크혹은 60주년 기념관 건물을 사용예정중에 있습니다. 또한, 교육과목은 기업과의 연계를 통해 협의하에 있습니다.</div>
+        </div>
       </div>
     </ContentWrapper>
   )
