@@ -60,7 +60,15 @@ const KSoftwareBootcamp = () => {
           <h5>- 게임 분야에서 개설되는 프로젝트는 아래 표와 같습니다.</h5>
           <img src="../../../assets/game.png"></img>
         </div>
-        <div></div>
+        <div className={Style.schedule-box}>
+        <div className={Style.first-title}>교육일정</div>
+        <h5>7~8월(주 5일) 280시간 →오프라인</h5>
+        <h5>9월~ 12월 80시간 → 온라인 및 주말 (변동있음)</h5>
+        <h5>12월~2월(겨울방학 기업교육) → 무료셔틀</h5>
+        <h4>교육 시작일</h4>
+        <h5>2022년 7월 15일</h5>
+        <img src="../../../assets/schedule.png"/>
+        </div>
       </div>
     </ContentWrapper>
   )
