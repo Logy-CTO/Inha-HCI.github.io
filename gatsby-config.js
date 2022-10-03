@@ -14,6 +14,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
