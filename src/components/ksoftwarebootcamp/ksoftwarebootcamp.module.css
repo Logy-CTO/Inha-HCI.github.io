@@ -1,4 +1,12 @@
-h5 {
+h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-bottom: 10%
+}
+.h5_before_title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -8,11 +16,22 @@ h5 {
     
 }
 .h5_before_img{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
     margin-bottom: 3%;
 }
-.first_h5{
-    margin-bottom: 15%;
+.schedule_h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-bottom: 3%;
 }
+
 .top_navigator{
     display: flex;
     width: 100%;
@@ -46,7 +65,7 @@ h5 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 5em;
     text-align: left;
     line-height: 1em;
     color: white;
@@ -54,10 +73,27 @@ h5 {
 .content_container h5{
     color:white;
 }
+/* contact_h5 이상함 */
+.contact_h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: white;
+}
 .top_content > img{
     height: 80vh;
 }
-
+.first_h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-bottom: 15%;
+}
 .first_title{
     border-left: thick solid white;
     padding-left: 2%;
@@ -80,15 +116,38 @@ h5 {
 .prgintro_img{
     width:80vw;
     margin-top: 3%;
+    /*중앙정렬하고 싶음*/
 }
-.basic_programming_img{
-    width:80vw;
-    margin-top: 3%;
+.prg_img{
+    width:70vw;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.map_img{
+    width: 40vw;
+    margin-top: 0%;
+    margin-bottom: 10%;
 }
 .faculty_title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
+    font-size: 5em;
     color: white;
+}
+.faculty_subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    color:white;
+    margin-top: 2%;
+}
+.contact_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3em;;
+    color: white;
+    margin-top: 2%;
 }
