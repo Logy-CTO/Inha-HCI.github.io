@@ -2,6 +2,7 @@ import React from "react"
 import ContentWrapper from "../contentWrapper"
 import * as Style from "./ksoftwarebootcamp.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { MdStickyNote2 } from "react-icons/md"
 
 const KSoftwareBootcamp = () => {
   return (
@@ -265,47 +266,125 @@ const KSoftwareBootcamp = () => {
                 </div>
               </div>
             </div>
+            <div>
+            <div className={Style.first_title}>참여교수</div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/김학일.png" alt="김학일"></StaticImage>
+                <span>김학일 (스마트모빌리티공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/이종식.png" alt="이종식"></StaticImage>
+                <span>이종식 (컴퓨터공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/이기복.png" alt="이기복"></StaticImage>
+                <span>이기복 (스마트모빌리티공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/김승환.png" alt="김승환"></StaticImage>
+                <span>김승환 (데이터사이언스학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/유상봉.png" alt="유상봉"></StaticImage>
+                <span>유상봉 (컴퓨터공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/류춘우.png" alt="류춘우"></StaticImage>
+                <span>류춘우 (스마트모빌리티공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/김유성.png" alt="김유성"></StaticImage>
+                <span>김유성 (인공지능공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/정진만.png" alt="정진만"></StaticImage>
+                <span>정진만 (컴퓨터공학)</span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/박재형.png" alt="박재형"></StaticImage>
+                <span>박재형 (정보통신공학)</span>
+              </div>
+            </div>
+            </div>
           </div>
-
+          
           <div className={Style.first_title}>수업참여멘토</div>
           <div className={Style.mentor_name}>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/김종구.png" alt="김종구"></StaticImage>
               <span>김종구 (인하대학교 대학원 전기컴퓨터공학과)</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/양호준.png" alt="양호준"></StaticImage>
               <span>양호준 (인하대학교 대학원 전기컴퓨터공학과)</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/이문형.png" alt="이문형"></StaticImage>
               <span>이문형 (인하대학교 대학원 전기컴퓨터공학과)</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/정회준.png" alt="정회준"></StaticImage>
               <span>정회준 (인하대학교 대학원 전기컴퓨터공학과)</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/최정무.png" alt="최정무"></StaticImage>
               <span>최정무 (인하대학교 컴퓨터공학과)</span>
             </div>
-            <div>
-              <span>소찬균 (인하대학교 컴퓨터공학과)</span>
+            <div className={Style.mentor_info}>
+            <StaticImage className={Style.faculty_img_small} src="../../assets/images/안나겸.jpg" alt="안나겸"></StaticImage>
+              <span>안나겸 (인하대학교 컴퓨터공학과)</span>
             </div>
-            <div>
-              <span>김시진 (인하대학교 컴퓨터공학과)</span>
+            <div className={Style.mentor_info}>
+              {/* <StaticImage className={Style.faculty_img_small} src="../../assets/images/김종구.png" alt="김종구"></StaticImage> */}
+              <span>정여진 (인하대학교 컴퓨터공학과)</span>
+            </div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/강종욱.jpeg" alt="강종욱"></StaticImage>
+              <span>강종욱 (인하대학교 컴퓨터공학과)</span>
+            </div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/전민혜.jpeg" alt="전민혜"></StaticImage>
+              <span>전민혜 (인하대학교 컴퓨터공학과)</span>
+            </div>
+            <div className={Style.mentor_info}>
+              {/* <StaticImage className={Style.faculty_img_small} src="../../assets/images/최정무.png" alt="최정무"></StaticImage> */}
+              <span>최지민 (인하대학교 컴퓨터공학과)</span>
             </div>
           </div>
           <div className={Style.first_title}>성과관리위원회</div>
           <div className={Style.mentor_name}>
-            <div>
+            <div className={Style.mentor_info}>
               <span>(주)오즈레이 백문기 이사</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/백성현.png" alt="백성현"></StaticImage>
               <span>인하대 화학공학과 백성현 교수님</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
+            <StaticImage className={Style.faculty_img_small} src="../../assets/images/오재덕.png" alt="오재덕"></StaticImage>
               <span>LG전자 오재덕연구원</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
               <span>(주)AI네트웍스 이현준이사</span>
             </div>
-            <div>
+            <div className={Style.mentor_info}>
               <span>(주)이투엠쓰리 최종혁이사</span>
             </div>
           </div>
