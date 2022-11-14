@@ -43,7 +43,7 @@ const KSoftwareBootcamp = () => {
             <br />
             <br />
             대학 연합에서 주관하는 SW 강좌는 크게
-            프로그래밍(기초),SW이론교육(기초) , SW기술역량교육(심화) 으로 총
+            프로그래밍(기초), SW이론교육(기초) , SW기술역량교육(심화) 으로 총
             280시간으로 구성되어 있으며 하부 강좌들이 존재합니다.
           </h5>
           <div className={Style.third_title}>프로그래밍 기초</div>
@@ -98,7 +98,7 @@ const KSoftwareBootcamp = () => {
         <section className={Style.company_project} id="projects">
           <div className={Style.first_title}>참여기업 프로젝트</div>
           <h5 className={Style.h5_before_title}>
-            27개 참여기업(SK CC, Kakao, Nexon 등)의 현업 멘토들과 함께 실제
+            7개 참여기업( SK, 미디어로그, 쿠도커뮤니케이션, 오비고, 인텔리빅스, 메가존, 파인원커뮤니케이션즈 )의 현업 멘토들과 함께 실제
             기업에서 직면하는 문제를 해결하고 프로젝트를 진행하며 현업 역량을
             갖춘 SW 개발자로 거듭날 수 있습니다. <br />
             <br />
@@ -153,24 +153,19 @@ const KSoftwareBootcamp = () => {
         <section className={Style.schedule_box} id="schedule">
           <div className={Style.first_title}>교육일정</div>
           <h5 className={Style.schedule_h5}>
-            7~8월(주 5일) 280시간 →오프라인
+            2023.01.12 ~ 2023.02.28, 2023.03.13 ~ 2023.06.02 → 기초 교육 (오프라인)
             <br />
             <br />
-            9월~ 12월 80시간 → 온라인 및 주말 (변동있음)
+            2023.06.05 ~ 2023.06.30 → 이론/실습 교육 (오프라인)
             <br />
             <br />
-            12월~2월(겨울방학 기업교육) → 무료셔틀
+            2023.07.03 ~ 2023.09.01 → 프로젝트 교육 (오프라인)
             <br />
             <br />
             <br />
             <br />
-            교육 시작일: 2022년 7월 15일
+            교육 시작일: 2023년 1월 12일
           </h5>
-          <StaticImage
-            className={Style.prg_img}
-            src="../../assets/images/schedule.png"
-            alt="스케줄"
-          ></StaticImage>
         </section>
 
         <section className={Style.faculty} id="faculty">
@@ -179,11 +174,11 @@ const KSoftwareBootcamp = () => {
             교육에 대한 열정과 학생들에 대한 진심으로
             <br />더 나은 &lt;K-Software BootCamp 2022&gt;를 만들어 갑니다
           </h5>
-          <StaticImage
+          {/* <StaticImage
             className={Style.professors_img}
             src="../../assets/images/professors.png"
             alt="교수진"
-          ></StaticImage>
+          ></StaticImage> */}
 
           <div className={Style.professor_table}>
             <div>
@@ -248,21 +243,6 @@ const KSoftwareBootcamp = () => {
                   <div className={Style.faculty_info}>
                     담당과목: C++, JAVA, React, 컴퓨터 네트워크
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div className={Style.first_title}>이다영</div>
-              <div className={Style.faculty_box}>
-                <StaticImage
-                  className={Style.faculty_img}
-                  src="../../assets/images/ldy2.png"
-                  alt="이다영"
-                ></StaticImage>
-                <div className={Style.faculty_description}>
-                  <div className={Style.faculty_pr}>더 나은 수업을 위해</div>
-                  <div className={Style.faculty_info}>담당과목: OS</div>
                 </div>
               </div>
             </div>
@@ -352,7 +332,7 @@ const KSoftwareBootcamp = () => {
               <span>안나겸 (인하대학교 컴퓨터공학과)</span>
             </div>
             <div className={Style.mentor_info}>
-              {/* <StaticImage className={Style.faculty_img_small} src="../../assets/images/김종구.png" alt="김종구"></StaticImage> */}
+              <StaticImage className={Style.faculty_img_small} src="../../assets/images/정여진.jpeg" alt="정여진"></StaticImage>
               <span>정여진 (인하대학교 컴퓨터공학과)</span>
             </div>
             <div className={Style.mentor_info}>
@@ -409,14 +389,6 @@ const KSoftwareBootcamp = () => {
           <div className={Style.contact_h5}>
             A2. 마지막에 접수된 신청서를 최종 신청서로 구별할 예정입니다.
           </div>
-          <div className={Style.second_title}>
-            Q3. 일정표(교육기간) , 교육과목, 장소 등이 궁금합니다.
-          </div>
-          <div className={Style.FAQ_last_h5}>
-            A3. 현재 교육장소는 인하대학교내의 하이테크혹은 60주년 기념관 건물을
-            사용예정중에 있습니다. 또한, 교육과목은 기업과의 연계를 통해
-            협의하에 있습니다.
-          </div>
         </div>
 
         <div className={Style.contact}>
@@ -425,7 +397,7 @@ const KSoftwareBootcamp = () => {
             기타 문의 사항이 있다면 연락 또는 방문 부탁드립니다.
           </h5>
           <div className={Style.contact_second_title}>이메일</div>
-          <h5 className={Style.contact_h5}>x21999@inha.ac.kr</h5>
+          <h5 className={Style.contact_h5}>keb@inha.ac.kr</h5>
           <div className={Style.contact_second_title}>전화번호</div>
           <h5 className={Style.contact_h5}>032-860-9504</h5>
           <div className={Style.contact_second_title}>오시는 길</div>
