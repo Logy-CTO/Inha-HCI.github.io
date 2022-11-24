@@ -2,7 +2,7 @@
 title: LG전자 타깃랩 선정
 date: "2022-11-02"
 description: "컴퓨터공학과 권장우 교수의 인간과 컴퓨터 상호작용 연구실(Human Computer Interaction: HCI)이 LG전자 타깃랩(Target Lab)으로 선정됐다."
-featuredImage: ./Untitled.png
+featuredImage: ./image.jpg
 ---
 
 #### 인간과 컴퓨터 상호작용 연구실, 현장 경험 쌓은 맞춤형 인재 양성
