@@ -174,26 +174,13 @@ const KSoftwareBootcamp = () => {
             교육에 대한 열정과 학생들에 대한 진심으로
             <br />더 나은 &lt;K-Software BootCamp 2022&gt;를 만들어 갑니다
           </h5>
-          {/* <StaticImage
-            className={Style.professors_img}
-            src="../../assets/images/professors.png"
-            alt="교수진"
-          ></StaticImage> */}
-
+         
           <div className={Style.professor_table}>
-            <div>
-              <div className={Style.first_title}>권장우</div>
-              <div className={Style.faculty_box}>
-                <StaticImage
-                  className={Style.faculty_img}
-                  src="../../assets/images/kjw2.png"
-                  alt="권장우"
-                  aspectRatio={3 / 4}
-                ></StaticImage>
-                <div className={Style.faculty_description}>
-                  <div className={Style.faculty_pr}>교육생들의 꿈을 현실로</div>
-                  <div className={Style.faculty_info}>
-                    <br />
+            <div className={Style.first_title}>교수진</div>
+            <div className={Style.mentor_name}>
+              <div className={Style.box}>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/kjw2.png" alt="권장우"></StaticImage>
+                <span>권장우 (컴퓨터공학)<br/><br/>
                     1996~1998특허청 사무관
                     <br />
                     1998~2009동명대학교 부교수
@@ -207,43 +194,23 @@ const KSoftwareBootcamp = () => {
                     2012~인하대학교 교수
                     <br />
                     2022~인하대학교 sw중심대학사업단 단장
-                  </div>
-                </div>
+                </span>
               </div>
             </div>
-
-            <div>
-              <div className={Style.first_title}>이선우</div>
-              <div className={Style.faculty_box}>
-                <StaticImage
-                  className={Style.faculty_img}
-                  src="../../assets/images/lsw2.png"
-                  alt="이선우"
-                ></StaticImage>
-                <div className={Style.faculty_description}>
-                  <div className={Style.faculty_pr}>부드러운 카리스마</div>
-                  <div className={Style.faculty_info}>
-                    담당과목: 빅데이터분석, 기계학습, 인공지능, 데이터베이스,
-                    Python
-                  </div>
-                </div>
+            <div className={Style.mentor_name}>
+              <div className={Style.box}>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/lsw2.png" alt="이선우"></StaticImage>
+                <span>이선우 (컴퓨터공학)<br/><br/>
+                  담당과목: 인공지능
+                </span>
               </div>
             </div>
-
-            <div>
-              <div className={Style.first_title}>김태간</div>
-              <div className={Style.faculty_box}>
-                <StaticImage
-                  className={Style.faculty_img}
-                  src="../../assets/images/ktg2.png"
-                  alt="김태간"
-                ></StaticImage>
-                <div className={Style.faculty_description}>
-                  <div className={Style.faculty_pr}>다정히 그리고 친절히</div>
-                  <div className={Style.faculty_info}>
-                    담당과목: C++, JAVA, React, 컴퓨터 네트워크
-                  </div>
-                </div>
+            <div className={Style.mentor_name}>
+              <div className={Style.box}>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/ktg2.png" alt="김태간"></StaticImage>
+                <span>김태간 (컴퓨터공학)<br/><br/>
+                  담당과목: C++, JAVA, React, 컴퓨터 네트워크
+                </span>
               </div>
             </div>
             <div>
@@ -302,7 +269,13 @@ const KSoftwareBootcamp = () => {
                 <span>박재형 (정보통신공학)</span>
               </div>
             </div>
+            <div className={Style.mentor_name}>
+              <div>
+                <StaticImage height={110} className={Style.faculty_img_small} src="../../assets/images/강성관.png" alt="강성관"></StaticImage>
+                <span>강성관 (인하대학교 박사, 디지털십 연구소장)</span>
+              </div>
             </div>
+          </div>
           </div>
           
           <div className={Style.first_title}>수업참여멘토</div>
