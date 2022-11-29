@@ -135,19 +135,6 @@ const KSoftwareBootcamp = () => {
             src="../../assets/images/healthCare.png"
             alt="헬스케어"
           ></StaticImage>
-          <div className={Style.third_title}>게임</div>
-          <h5 className={Style.h5_before_img}>
-            - 게임산업에서 많이 사용되는 프로그램의 실습과 사용을 통해 현업
-            역량을 양성할 수 있으며, 슈팅 게임, 아케이드 게임, RPG 게임, 퍼즐
-            게임, 플랫폼 등의 프로젝트를 경험할 수 있습니다.
-            <br />
-            <br />- 게임 분야에서 개설되는 프로젝트는 아래 표와 같습니다.
-          </h5>
-          <StaticImage
-            className={Style.prg_img}
-            src="../../assets/images/game.png"
-            alt="게임"
-          ></StaticImage>
         </section>
 
         <section className={Style.schedule_box} id="schedule">
