@@ -37,6 +37,7 @@ const ResearchTopics = () => {
       <div className={ResearchTopicsStyle.contentWrapper}>
         <div>
           {nodes
+            .reverse()
             .filter((node, idx) => idx % 2 === 0)
             .map(node => {
               return (
