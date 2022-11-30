@@ -102,7 +102,7 @@ const KSoftwareBootcamp = () => {
             기업에서 직면하는 문제를 해결하고 프로젝트를 진행하며 현업 역량을
             갖춘 SW 개발자로 거듭날 수 있습니다. <br />
             <br />
-            프로젝트는 크게 `스마트 팩토리` `헬스케어` `게임` 로 구성되어 있으며
+            프로젝트는 크게 `스마트 팩토리` `헬스케어` 로 구성되어 있으며
             각 주제 아래 세부 주제들의 프로젝트가 존재합니다.
             <br />
             <br />팀 구성별 난이도에 따라 2~3개의 프로젝트를 선택하여 수행하며,
@@ -135,19 +135,6 @@ const KSoftwareBootcamp = () => {
             src="../../assets/images/healthCare.png"
             alt="헬스케어"
           ></StaticImage>
-          <div className={Style.third_title}>게임</div>
-          <h5 className={Style.h5_before_img}>
-            - 게임산업에서 많이 사용되는 프로그램의 실습과 사용을 통해 현업
-            역량을 양성할 수 있으며, 슈팅 게임, 아케이드 게임, RPG 게임, 퍼즐
-            게임, 플랫폼 등의 프로젝트를 경험할 수 있습니다.
-            <br />
-            <br />- 게임 분야에서 개설되는 프로젝트는 아래 표와 같습니다.
-          </h5>
-          <StaticImage
-            className={Style.prg_img}
-            src="../../assets/images/game.png"
-            alt="게임"
-          ></StaticImage>
         </section>
 
         <section className={Style.schedule_box} id="schedule">
@@ -176,7 +163,7 @@ const KSoftwareBootcamp = () => {
           </h5>
          
           <div className={Style.professor_table}>
-            <div className={Style.first_title}>교수진</div>
+            <div className={Style.first_title}>단장</div>
             <div className={Style.mentor_name}>
               <div className={Style.box}>
                 <StaticImage className={Style.faculty_img_small} src="../../assets/images/kjw2.png" alt="권장우"></StaticImage>
@@ -197,6 +184,7 @@ const KSoftwareBootcamp = () => {
                 </span>
               </div>
             </div>
+            <div className={Style.first_title}>교수진</div>
             <div className={Style.mentor_name}>
               <div className={Style.box}>
                 <StaticImage className={Style.faculty_img_small} src="../../assets/images/lsw2.png" alt="이선우"></StaticImage>
@@ -209,7 +197,15 @@ const KSoftwareBootcamp = () => {
               <div className={Style.box}>
                 <StaticImage className={Style.faculty_img_small} src="../../assets/images/ktg2.png" alt="김태간"></StaticImage>
                 <span>김태간 (컴퓨터공학)<br/><br/>
-                  담당과목: C++, JAVA, React, 컴퓨터 네트워크
+                  담당과목: 자료구조/알고리즘
+                </span>
+              </div>
+            </div>
+            <div className={Style.mentor_name}>
+              <div className={Style.box}>
+                <StaticImage className={Style.faculty_img_small} src="../../assets/images/강성관.png" alt="강성관"></StaticImage>
+                <span>강성관 (인하대학교 박사, 디지털십 연구소장)<br/><br/>
+                  담당과목: 네트워크, 데이터베이스
                 </span>
               </div>
             </div>
@@ -267,12 +263,6 @@ const KSoftwareBootcamp = () => {
               <div>
                 <StaticImage className={Style.faculty_img_small} src="../../assets/images/박재형.png" alt="박재형"></StaticImage>
                 <span>박재형 (정보통신공학)</span>
-              </div>
-            </div>
-            <div className={Style.mentor_name}>
-              <div>
-                <StaticImage height={110} className={Style.faculty_img_small} src="../../assets/images/강성관.png" alt="강성관"></StaticImage>
-                <span>강성관 (인하대학교 박사, 디지털십 연구소장)</span>
               </div>
             </div>
           </div>
