@@ -1,6 +1,6 @@
 {
-  "priority": 3,
-  "type": "Undergraduated students",
+  "priority": 8,
+  "type": "M.S. Students",
   "name": "김지현",
   "email": "ji1633@naver.com",
   "interested": ["Backend", "MLOps"],
