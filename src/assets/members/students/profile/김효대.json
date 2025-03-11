@@ -1,7 +1,8 @@
 {
-    "priority": 7,
-    "type": "Undergraduated students",
+    "priority": 34,
+    "type": "Alumni",
     "name": "김효대",
     "email":"gyeo009@gmail.com",
-    "github":"https://github.com/gyeo009"
+    "github":"https://github.com/gyeo009",
+    "degree": "BS"
   }
