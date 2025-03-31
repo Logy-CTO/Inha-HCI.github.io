@@ -10,6 +10,24 @@ const Papers = () => {
         <h4>International</h4>
         <ul className={PaperStyle.list}>
           <li>
+            <a href="https://doi.org/10.1109/ACCESS.2025.3553714">
+              S. Baydadaev, S. Usmankhujaev, K. S. Kim and J. W. Kwon. "Artifacts extraction from video head impulse test data using time series classification methods and VOR gain analysis," in IEEE Access, 2025. 
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://doi.org/10.1109/ACCESS.2024.3488510">
+              S. Usmankhujaev, S. Baydadaev and J. W. Kwon. "Perception, Distance Estimation, and Tracking Integration From BEV Representations," in IEEE Access, vol. 12, pp. 169136-169148, 2024.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://doi.org/10.3390/s23042103">
+              Usmankhujaev, Saidrasul, Shokhrukh Baydadaev, and Jang Woo Kwon. 2023. "Accurate 3D to 2D Object Distance Estimation from the Mapped Point Cloud Data" Sensors 23, no. 4: 2103.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
             <a href="https://doi.org/10.3390/s22010157">
               Usmankhujaev, Saidrasul, Bunyodbek Ibrokhimov, Shokhrukh
               Baydadaev, and Jangwoo Kwon. 2022. "Time Series Classification
