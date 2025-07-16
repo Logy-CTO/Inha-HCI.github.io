@@ -9,148 +9,168 @@ const Papers = () => {
       <div>
         <h4>International</h4>
         <ul className={PaperStyle.list}>
+          {/* ---------- 2025 ---------- */}
+          <li>
+            <a href="https://doi.org/10.3390/s25144383">
+              H. Jeong, S. Kim, D. Seo and J. W. Kwon. "Source‑Free Domain Adaptation Framework for Rotary Machine Fault Diagnosis," <em>Sensors</em>, 2025.
+              <AiOutlineLink />
+            </a>
+          </li>
           <li>
             <a href="https://doi.org/10.1109/ACCESS.2025.3553714">
-              S. Baydadaev, S. Usmankhujaev, K. S. Kim and J. W. Kwon. "Artifacts extraction from video head impulse test data using time series classification methods and VOR gain analysis," in IEEE Access, 2025. 
+              S. Baydadaev, S. Usmankhujaev, K. S. Kim and J. W. Kwon. "Artifacts Extraction from Video Head Impulse Test Data Using Time Series Classification Methods and VOR Gain Analysis," <em>IEEE Access</em>, 2025.
+              <AiOutlineLink />
+            </a>
+          </li>
+
+          {/* ---------- 2024 (month‑desc approx.) ---------- */}
+          <li>
+            <a href="https://doi.org/10.3390/s24237865">
+              H. Jeong, J. Kim, D. Jung and J. W. Kwon. "Deep‑Learning and Dynamic Time Warping‑Based Approaches for the Diagnosis of Reactor Systems," <em>Sensors</em>, 2024.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://doi.org/10.3390/electronics13214253">
+              S. Lee, H. Jeong and J. W. Kwon. "Transformer‑Based GAN with Multi‑STFT for Rotating Machinery Vibration Data Analysis," <em>Electronics</em>, 2024.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://doi.org/10.3390/s24061765">
+              H. Jeong, S. Jeung, H. Lee and J. W. Kwon. "BiVi‑GAN: Bivariate Vibration GAN," <em>Sensors</em>, 2024.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://doi.org/10.1109/ACCESS.2024.3439586">
+              S. W. Lee, J. M. Sung and J. W. Kwon. "Optimizing RGB Convolution on Cortex‑M7 MCU: Approaches for Performance Improvement," <em>IEEE Access</em>, 2024.
               <AiOutlineLink />
             </a>
           </li>
           <li>
             <a href="https://doi.org/10.1109/ACCESS.2024.3488510">
-              S. Usmankhujaev, S. Baydadaev and J. W. Kwon. "Perception, Distance Estimation, and Tracking Integration From BEV Representations," in IEEE Access, vol. 12, pp. 169136-169148, 2024.
+              S. Usmankhujaev, S. Baydadaev and J. W. Kwon. "Perception, Distance Estimation, and Tracking Integration from BEV Representations," <em>IEEE Access</em>, 2024.
               <AiOutlineLink />
             </a>
           </li>
+
+          {/* ---------- 2023 ---------- */}
           <li>
             <a href="https://doi.org/10.3390/s23042103">
-              Usmankhujaev, Saidrasul, Shokhrukh Baydadaev, and Jang Woo Kwon. 2023. "Accurate 3D to 2D Object Distance Estimation from the Mapped Point Cloud Data" Sensors 23, no. 4: 2103.
+              S. Usmankhujaev, S. Baydadaev and J. W. Kwon. "Accurate 3D‑to‑2D Object Distance Estimation from the Mapped Point Cloud Data," <em>Sensors</em>, 2023.
               <AiOutlineLink />
             </a>
           </li>
+
+          {/* ---------- 2022 ---------- */}
           <li>
             <a href="https://doi.org/10.3390/s22010157">
-              Usmankhujaev, Saidrasul, Bunyodbek Ibrokhimov, Shokhrukh
-              Baydadaev, and Jangwoo Kwon. 2022. "Time Series Classification
-              with InceptionFCN" Sensors 22, no. 1: 157.
+              S. Usmankhujaev, B. Ibrokhimov, S. Baydadaev and J. W. Kwon. "Time Series Classification with InceptionFCN," <em>Sensors</em>, 2022.
               <AiOutlineLink />
             </a>
           </li>
+
+          {/* ---------- 2021 ---------- */}
           <li>
-            Seon-Woo Lee, Ho-Jun Yang, Mun-Hyung Lee, Jung-Moo Choi, Se-Hwan
-            Yun, Jang-Woo Kwon, Ji-Hoon Park, Dong-Hee Jung, Hye-Jung Shin.
-            (2021). A Study on the Air Pollution Monitoring Network Algorithm
-            Using Deep Learning . Journal of Convergence for Information
-            Technology, 11(11), 57-65.
+            Seon‑Woo Lee, Ho‑Jun Yang, Mun‑Hyung Lee, Jung‑Moo Choi, Se‑Hwan Yun, Jang‑Woo Kwon, Ji‑Hoon Park, Dong‑Hee Jung, Hye‑Jung Shin. "A Study on the Air Pollution Monitoring Network Algorithm Using Deep Learning," <em>Journal of Convergence for Information Technology</em>, 11(11), 57‑65, 2021.
           </li>
           <li>
             <a href="https://doi.org/10.3390/app11041564">
-              A Study on Deep Learning Application of Vibration Data and
-              Visualization of Defects for Predictive Maintenance of Gravity
-              Acceleration Equipment Lee, SeonWoo; Yu, HyeonTak; Yang, HoJun;
-              Song, InSeo; Choi, JungMu; Yang, JaeHeung; Lim, GangMin; Kim,
-              Kyu-Sung; Choi, ByeongKeun; Kwon, JangWoo. 2021. Appl. Sci. 11,
-              no. 4: 1564.
+              S. Lee, H. Yu, H. Yang, I. Song, J. Choi, J. Yang, G. Lim, K. Kim, B. Choi and J. Kwon. "A Study on Deep Learning Application of Vibration Data and Visualization of Defects for Predictive Maintenance of Gravity Acceleration Equipment," <em>Applied Sciences</em>, 2021.
               <AiOutlineLink />
             </a>
           </li>
+
+          {/* ---------- 2020 ---------- */}
           <li>
-            A Filament Supply System Capable of Remote Monitoring and Automatic
-            Humidity Control for 3D Printer , JOURNAL OF SENSORS , 2020
+            A Filament Supply System Capable of Remote Monitoring and Automatic Humidity Control for 3D Printer, <em>Journal of Sensors</em>, 2020
           </li>
           <li>
-            Real-Time, Deep Learning Based Wrong Direction Detection , APPLIED
-            SCIENCES-BASEL , 10권 7호 , 2020
-          </li>
-          Extreme Low-Light Image Enhancement for Surveillance Cameras Using
-          Attention U-Net , SENSORS , 20권 2호 , 2020
-          <li>
-            Parallel Image Captioning Using 2D Masked Convolution , APPLIED
-            SCIENCES-BASEL , 9권 9호 , 2019
+            Real‑Time, Deep Learning Based Wrong Direction Detection, <em>Applied Sciences‑Basel</em>, 10(7), 2020
           </li>
           <li>
-            Detection of Potholes Using a Deep Convolutional Neural Network ,
-            JOURNAL OF UNIVERSAL COMPUTER SCIENCE , 24권 9호 , pp. 1244~1257 ,
-            2018
+            Extreme Low‑Light Image Enhancement for Surveillance Cameras Using Attention U‑Net, <em>Sensors</em>, 20(2), 2020
+          </li>
+
+          {/* ---------- 2019 ---------- */}
+          <li>
+            <a href="https://doi.org/10.3390/electronics13214253">
+              Parallel Image Captioning Using 2D Masked Convolution, <em>Applied Sciences‑Basel</em>, 9(9), 2019
+              <AiOutlineLink />
+            </a>
+          </li>
+
+          {/* ---------- 2018 ---------- */}
+          <li>
+            Detection of Potholes Using a Deep Convolutional Neural Network, <em>Journal of Universal Computer Science</em>, 24(9), pp. 1244‑1257, 2018
           </li>
           <li>
-            A Development of Clinical Decision Support System for Video Head
-            Impulse Test Based on Fuzzy Inference System , JOURNAL OF SENSORS ,
-            2018
+            A Development of Clinical Decision Support System for Video Head Impulse Test Based on Fuzzy Inference System, <em>Journal of Sensors</em>, 2018
           </li>
           <li>
-            Detecting Ghost Targets Using Multilayer Perceptron in
-            Multiple-Target Tracking , SYMMETRY-BASEL , 10권 1호 , 2018
+            Detecting Ghost Targets Using Multilayer Perceptron in Multiple‑Target Tracking, <em>Symmetry‑Basel</em>, 10(1), 2018
+          </li>
+
+          {/* ---------- 2016 ---------- */}
+          <li>
+            Adaptive Image Matching Using Discrimination of Deformable Objects, <em>Symmetry‑Basel</em>, 8(7), 2016
           </li>
           <li>
-            Adaptive Image Matching Using Discrimination of Deformable Objects ,
-            SYMMETRY-BASEL , 8권 7호 , 2016
+            Recommendation Application for Video Head Impulse Test Based on Fuzzy Logic Control, <em>Journal of Central South University</em>, 23(5), pp. 1208‑1214, 2016
+          </li>
+
+          {/* ---------- 2014 ---------- */}
+          <li>
+            A Variable Step‑Size Feedback Cancellation Algorithm Based on GSAP for Digital Hearing Aids, <em>IEICE Trans. Fundamentals</em>, E97‑A(7), pp. 1615‑1618, 2014
           </li>
           <li>
-            Recommendation application for video head impulse test based on
-            fuzzy logic control , JOURNAL OF CENTRAL SOUTH UNIVERSITY , 23권 5호
-            , pp. 1208~1214 , 2016
+            State Machine and Downhill Simplex Approach for Vision‑Based Nighttime Vehicle Detection, <em>ETRI Journal</em>, 36, pp. 439‑449, 2014
+          </li>
+
+          {/* ---------- 2013 ---------- */}
+          <li>
+            A Novel Lattice Reduction Precoding Method, <em>Wireless Personal Communications</em>, 70(1), pp. 283‑293, 2013
           </li>
           <li>
-            A Variable Step-Size Feedback Cancellation Algorithm Based on GSAP
-            for Digital Hearing Aids , IEICE TRANSACTIONS ON FUNDAMENTALS OF
-            ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES , E97A권 7호 , pp.
-            1615~1618 , 2014
+            A Distributed Cooperative MAC Protocol for QoS Improvement and Mobility Support in WiMedia Networks, <em>Wireless Personal Communications</em>, 69(4), pp. 1143‑1164, 2013
+          </li>
+
+          {/* ---------- 2012 ---------- */}
+          <li>
+            Personalized Document Summarization Using Pseudo Relevance Feedback and Semantic Feature, <em>IETE Journal of Research</em>, 58(2), pp. 155‑165, 2012
+          </li>
+
+          {/* ---------- 2011 ---------- */}
+          <li>
+            Effects of the Inclination Direction of Vicinal m‑Plane Sapphire Substrates on the Crystal Quality of m‑Plane GaN Film, <em>Journal of Crystal Growth</em>, 325(1), pp. 85‑88, 2011
           </li>
           <li>
-            State Machine and Downhill Simplex Approach for Vision-Based
-            Nighttime Vehicle Detection , ETRI JOURNAL , 36 , pp. 439~449 , 2014
+            New Results on Stability Criteria for Neural Networks with Time‑Varying Delays, <em>Chinese Physics B</em>, 20(5), 2011
           </li>
           <li>
-            A Novel Lattice Reduction Precoding Method , WIRELESS PERSONAL
-            COMMUNICATIONS , 70권 1호 , pp. 283~293 , 2013
+            A Digital Coreless Maximum Power Point Tracking Circuit for Thermoelectric Generators, <em>Journal of Electronic Materials</em>, 40(5), pp. 867‑872, 2011
           </li>
           <li>
-            A Distributed Cooperative MAC Protocol for QoS improvement and
-            Mobility Support in WiMedia Networks , WIRELESS PERSONAL
-            COMMUNICATIONS , 69권 4호 , pp. 1143~1164 , 2013
+            Efficient Interference Cancellation Scheme for Wireless Body Area Network, <em>Journal of Communications and Networks</em>, 13(2), pp. 167‑174, 2011
+          </li>
+
+          {/* ---------- 2010 ---------- */}
+          <li>
+            A Novel Opportunistic Greedy Forwarding Scheme in Wireless Sensor Networks, <em>KSII Transactions on Internet and Information Systems</em>, 4(5), 2010
+          </li>
+
+          {/* ---------- 2009 ---------- */}
+          <li>
+            Large‑Scale Joint Rate and Power Allocation Algorithm Combined with Admission Control in Cognitive Radio Networks, <em>Journal of Communications and Networks</em>, 11(2), 2009
+          </li>
+
+          {/* ---------- 2006 ---------- */}
+          <li>
+            Color Preference and Personality Modeling Using Fuzzy Reasoning Rule, <em>Lecture Notes in Computer Science</em>, 3984(2006), 2006
           </li>
           <li>
-            Personalized Document Summarization Using Pseudo Relevance Feedback
-            and Semantic Feature , IETE JOURNAL OF RESEARCH , 58 권 2호 , pp.
-            155~165 , 2012
-          </li>
-          <li>
-            Effects of the inclination direction of vicinal m-plane sapphire
-            substrates on the crystal quality of m-plane GaN film , JOURNAL OF
-            CRYSTAL GROWTH , 325권 1호 , pp. 85~88 , 2011
-          </li>
-          <li>
-            New results on stability criteria for neural networks with
-            time-varying delays , CHINESE PHYSICS B , 20권 5호 , 2011
-          </li>
-          <li>
-            A Digital Coreless Maximum Power Point Tracking Circuit for
-            Thermoelectric Generators , JOURNAL OF ELECTRONIC MATERIALS , 40권
-            5호 , pp. 867~872 , 2011
-          </li>
-          <li>
-            Efficient Interference Cancellation Scheme for Wireless Body Area
-            Network , JOURNAL OF COMMUNICATIONS AND NETWORKS , 13권 2호 , pp.
-            167~174 , 2011
-          </li>
-          <li>
-            A Novel Opportunistic Greedy Forwarding Scheme in Wireless Sensor
-            Networks , KSII TRANSACTIONS ON INTERNET AND INFORMATION SYSTEMS ,
-            4권 5호 , 2010
-          </li>
-          <li>
-            Large-Scale Joint Rate and Power Allocation Algorithm Combined with
-            Admission Control in Cognitive Radio Networks , JOURNAL OF
-            COMMUNICATIONS AND NETWORKS , 11권 2호 , 2009
-          </li>
-          <li>
-            Color Preference and Personality Modeling Using Fuzzy Reasoning Rule
-            , LECTURE NOTES IN COMPUTER SCIENCE , 3984권 2006호 , 2006
-          </li>
-          <li>
-            An Implementation of the Vectorizing-Based Automatic Nesting
-            Software NST , LECTURE NOTES IN COMPUTER SCIENCE , 3984권 2006호 ,
-            2006
+            An Implementation of the Vectorizing‑Based Automatic Nesting Software NST, <em>Lecture Notes in Computer Science</em>, 3984(2006), 2006
           </li>
         </ul>
       </div>
